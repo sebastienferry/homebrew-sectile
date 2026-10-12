@@ -3,9 +3,9 @@ cask "sectile" do
 
   # bin/update-cask rewrites the version and both checksums from the
   # SHA256SUMS of the GitHub Release; edit those lines by hand only to pin.
-  version "0.4.5"
-  sha256 arm:   "5f83d576bc4b808dfd4d46446100fdfe108856e063570c693ad8f01138a01301",
-         intel: "367d965046dc89da3efe297b5cc11347b47a3348daea62be15d88b803ed8dd2a"
+  version "0.5.0"
+  sha256 arm:   "2f51dfb7eef6197d8dc7f1698de17af4d3ee2907134aea60f86b85817629591a",
+         intel: "64f46d3091d42b72ad5473d871f8771865c2036bee9f01d9894924f61f253c16"
 
   # The archive holds the directory @electron/packager writes, named after
   # Electron's arch token (x64), not Go's (amd64).
